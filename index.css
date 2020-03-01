@@ -64,8 +64,8 @@ hr {
 }
 
 #card-small {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 }
 .top-buffer {
   margin-top: 20px;
@@ -76,3 +76,4 @@ hr {
 #card-main {
   margin-bottom: 30px;
 }
+
