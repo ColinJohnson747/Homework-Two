@@ -1,0 +1,12 @@
+#container {
+  background-image: url(canvasbackground.jpg);
+}
+
+hr {
+  border-width: 2px;
+}
+
+.portfolio {
+  background-color: mediumseagreen;
+  color: brown;
+}
