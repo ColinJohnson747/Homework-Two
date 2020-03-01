@@ -10,30 +10,61 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="index.css">
+
         <title>Contact</title>
     </head>
 
-    <body>
+    <body class="body">
         <!--Navbar With Links-->
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand">Contact</a>
-            <form class="form-inline">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>                    
-                </ul>
-            </form>
-        </nav>
 
 
+        <!--Navbar With Links-->
+        <span class="border">
+            <nav id="nav" class="navbar fixed-top navbar-light bg-light">
+                <a id="about" class="navbar-brand" href="#">Colin Johnson</a>
+                <form class="form-inline">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html" id="navBarLinks">About</a>
+                        </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html" id="navBarLinks">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" id="navBarLinks">Contact</a>
+                        </li>
+                    </ul>
+                </form>
+            </nav>
+        </span>
+
+        <div class="container">
+            <div class="card">
+                <h1>About Me</h1>
+                <hr />
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
 
         <!-- Optional JavaScript -->
