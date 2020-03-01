@@ -1,24 +1,31 @@
 #about {
-    background-color: rgb(97, 168, 150);
-    color: white;
-    line-height: 2.5;
-    margin-left: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-weight: thick ;
+  background-color: rgb(97, 168, 150);
+  color: white;
+  line-height: 2.5;
+  margin-left: 25px;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: thick;
 }
 
 .body {
-   background-image: url(https://www.photohdx.com/images/2017/04/clean-white-paper-background-texture.jpg);
-   padding-top: 70px;
+  background-image: url(https://www.photohdx.com/images/2017/04/clean-white-paper-background-texture.jpg);
+  padding-top: 70px;
 }
 
 .navbar {
-    padding: 0rem; 
+  padding: 0rem;
 }
 
 #navBarLinks {
-    color: gray;
+  color: gray;
+}
+
+#char {
+  float: left;
+  height: 200px;
+  width: 312px;
+  margin-right: 10px;
 }
 
